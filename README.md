@@ -9,6 +9,6 @@ It not a new game but I just build it for testing my Unity Skill and improve my 
 ``` git clone https://github.com/Novsochetra/pop-star-game.git ```
 
 2. open the folder and open the file 
-``` Particle Practice.exe ```
+``` Game.exe ```
 
 3. Enjoy
