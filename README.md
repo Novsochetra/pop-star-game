@@ -2,10 +2,10 @@
 User user = new User();
 
 ### CREATE USER
-JSONObject newUser = new JSONObject();
+```JSONObject newUser = new JSONObject();
 newUser.put("name", "nob1");
 newUser.put("username", "nob1");
-newUser.put("email", "nob1.nov@gmail.com");
+newUser.put("email", "nob1.nov@gmail.com");```
 
 user.create(newUser);
 
@@ -23,4 +23,6 @@ user.update(user1);
 ### DELETE USER
 user.delete("8");
 
-# BUILDING PROJECT
+# Building Project
+ 
+
