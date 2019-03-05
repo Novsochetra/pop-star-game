@@ -1,14 +1,24 @@
-# pop-star-game
-
-
-It not a new game but I just build it for testing my Unity Skill and improve my logic.
-
 # Usage
+User user = new User();
 
-1. Clone this project
-``` git clone https://github.com/Novsochetra/pop-star-game.git ```
+### CREATE USER
+JSONObject newUser = new JSONObject();
+newUser.put("name", "nob1");
+newUser.put("username", "nob1");
+newUser.put("email", "nob1.nov@gmail.com");
 
-2. open the folder and open the file 
-``` Game.exe ```
+user.create(newUser);
 
-3. Enjoy
+### FIND USER
+System.out.print("FIND USER:");
+System.out.println(user.find("name", "nob"));
+
+### UPDATE USER
+JSONObject user1 = user.find("name", "sochetra");
+user1.put("name", "sochetra");
+user1.put("username", "sochetraNOV");
+user1.put("email", "sochetra.nov@gmail.com");
+user.update(user1);
+
+### DELETE USER
+user.delete("8");
