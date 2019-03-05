@@ -2,16 +2,14 @@
 User user = new User();
 
 ### CREATE USER
-```JSONObject newUser = new JSONObject();
-newUser.put("name", "nob1");
-newUser.put("username", "nob1");
-newUser.put("email", "nob1.nov@gmail.com");```
-
-user.create(newUser);
+```JSONObject newUser = new JSONObject(); ```
+```newUser.put("name", "nob1");```
+```newUser.put("username", "nob1");```
+```newUser.put("email", "nob1.nov@gmail.com");```
+```user.create(newUser); ```
 
 ### FIND USER
-System.out.print("FIND USER:");
-System.out.println(user.find("name", "nob"));
+``` System.out.println(user.find("name", "nob")); ```
 
 ### UPDATE USER
 JSONObject user1 = user.find("name", "sochetra");
