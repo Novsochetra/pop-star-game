@@ -22,5 +22,6 @@ User user = new User();
 ```user.delete("8");```
 
 # Building Project
- 
+```Select on project -> "File" -> "Export" -> "Runnable JAR file" -> select on "Extract required libraries into generated JAR"```
 
+After Build the project create the a new folder called "database" that have to same location with .jar file, and then copy the database from eclipse project to database project.
